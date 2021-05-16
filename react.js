@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./index.js'],
+  extends: ['./index.js', 'plugin:react/recommended'],
   plugins: ['react', 'react-native'],
   parserOptions: {
     ecmaFeatures: {
