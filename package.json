@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-orrelln",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "main": "index.js",
   "author": "Nicholas Orrell <mrorrell@gmail.com>",
   "repository": {
