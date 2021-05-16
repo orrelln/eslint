@@ -1,9 +1,10 @@
 module.exports = {
+  extends: ['prettier', 'airbnb'],
+  plugins: ['prettier', 'import', 'only-warn'],
   env: {
     es2021: true,
     node: true,
   },
-  extends: ['prettier', 'airbnb'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -11,7 +12,6 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['import', 'prettier', 'only-warn'],
   rules: {
     'prettier/prettier': [
       'error',

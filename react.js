@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./index.js', 'prettier/react'],
+  extends: ['./index.js'],
   plugins: ['react', 'react-native'],
   parserOptions: {
     ecmaFeatures: {
