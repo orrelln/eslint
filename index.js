@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['prettier', 'airbnb'],
-  plugins: ['prettier', 'import', 'only-warn'],
+  plugins: ['import', 'only-warn'],
   env: {
     es2021: true,
     node: true,
@@ -13,10 +13,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'prettier/prettier': [
-      'error',
-      { singleQuote: true, bracketSpacing: false },
-    ],
     'no-use-before-define': 0,
     'arrow-body-style': 0,
   },
